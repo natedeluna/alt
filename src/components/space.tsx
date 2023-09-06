@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import styles from './button.module.css';
 
-export const Space = component$((props) => {
+export const Space = component$(() => {
   return (
     <div class= {[styles.spaceBackground]}>
       <div class = {[styles.space, styles.v1]}></div>

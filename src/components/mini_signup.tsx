@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 interface ItemProps {
 
 }
-export const MiniSignup = component$<ItemProps>((props) => {
+export const MiniSignup = component$<ItemProps>(() => {
 
   return (
     <form class="relative flex flex-col gap-3 h-[38px] max-w-[280px] caret-black font-light">

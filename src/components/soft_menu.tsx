@@ -1,7 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 interface ItemProps {
 }
-export const SoftMenu = component$<ItemProps>((props) => {
+export const SoftMenu = component$<ItemProps>(() => {
   return (
     <div class={['flex', 'p-1', '']}>
       <div class=" bg-transparent w-[20px] h-[24px] rounded-[.5px]">

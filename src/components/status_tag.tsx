@@ -20,7 +20,7 @@ export const StatusTag = component$<ItemProps>((props) => {
   </svg>
   
   )
-  let varientStyles = [];
+  const varientStyles = [];
   let includedSymbol = null;
   switch (props.tagType) {
     case 'Success':
