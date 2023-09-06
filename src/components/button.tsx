@@ -10,7 +10,7 @@ interface ItemProps {
 
 export const Button = component$<ItemProps>((props) => {
   // Define variant styles based on the button type prop
-  let variantStyles = [];
+  const variantStyles = [];
 
   switch (props.buttonType) {
     case 'Primary':
@@ -54,7 +54,7 @@ export const Button = component$<ItemProps>((props) => {
   ];
 
   return (
-    <div class={[buttonClasses, styles.strokeAnim]} onMouseDown$={(e) => console.log(e.offsetX, e.offsetY)}>
+    <div class={[buttonClasses, styles.strokeAnim]}>
       <div class={
         props.buttonType === 'Outline' ? 'opacity-1':'opacity-0'
       }>
