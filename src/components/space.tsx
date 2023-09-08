@@ -10,11 +10,13 @@ export const Space = component$(() => {
       <div class = {[styles.space, styles.v3]}></div>
       <div class = {[styles.space, styles.v4]}></div>
       <div class = {[styles.space, styles.v5]}></div>
-      <br></br>
-      <div class={['flex', 'gap-10']}>
+      <div class={['flex', 'gap-10', 'flex-wrap']}>
         <div class = {[styles.space, styles.v6]}></div>
         <div class = {[styles.space, styles.v7]}></div>
         <div class = {[styles.space, styles.v8]}></div>
+        <div class = {[styles.space, styles.v9]}></div>
+        <div class = {[styles.space, styles.v10]}></div>
+        <div class = {[styles.space, styles.v11]}></div>
       </div>
     </div>
   </>
