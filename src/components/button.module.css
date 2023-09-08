@@ -32,13 +32,19 @@
 }
 
 .space::after {
-    content: 'Bio';
-    font-family: serif; 
-    position: absolute;
-    color: #454545;
-    top: 120%;
-    left: 50%;
+    content: 'System';
+    border-radius: 15px;
+    padding: 0 3px;
+    color: rgba(41, 41, 41, .7);
+    font-size: 14px;
     pointer-events: none;
+    font-family: system-ui;
+    position: absolute;
+    font-weight: 600;
+    top: 110%;
+    width: 100%;
+    left: 0;
+    text-align: center;
 }
 
 .v1 {
@@ -91,15 +97,86 @@
     box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149)
 }
 
-.v4 {}
+.v4 {
+    background-color: bisque;
+    border-radius: 25px;
+    transition: all .1s ease ;
+    border: 5px solid #4545451a;
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.2), 0 4px 8px 3px rgba(60,64,67,0.1)
+}
 
-.v5 {}
+.v4:hover {
+    border: 3px solid #4545450a;
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149)
+}
 
-.v6 {}
+.v4:after {
+    all: unset;
+}
 
-.v7 {}
+.v5 {
+    background-color: bisque;
+    border-radius: 25px;
+    transition: all .1s ease ;
+    border-block-end: 5px solid #4545451a;
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.2), 0 4px 8px 3px rgba(60,64,67,0.1)
+}
 
-.v8 {}
+.v5:hover {
+    border-block-end: 2px solid #4545451a;
+}
+
+.v5:after {
+    content: 'System';
+    border-radius: 15px;
+    padding: 0 3px;
+    color: rgba(41, 41, 41, .7);
+    font-size: 14px;
+    pointer-events: none;
+    font-family: system-ui;
+    position: absolute;
+    font-weight: 600;
+    top: 110%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.v6 {
+    background-color: white;
+    border-radius: 10px;
+    transition: all .3s ease ;
+    border: 4px solid #4545451a;
+}
+
+.v6:hover {
+    border: 4px solid #4545450e;
+}
+
+.v7 {
+    background-color: white;
+    border-radius: 10px;
+    transition: all .3s ease ;
+    border: 4px solid #4545451a;
+}
+
+.v7:hover {
+    /* border: 4px solid #45454500; */
+    filter:drop-shadow(0px 0px 3px #4545451c);
+}
+
+.v8 {
+    background-color: bisque;
+    border-radius: 10px;
+    transition: all .3s ease ;
+    border: 4px solid #4545450e;
+
+}
+
+.v8:hover {
+    border: 4px solid #45454528;
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.1), 0 4px 8px 3px rgba(60,64,67,0.049)
+}
 
 .v9 {}
 
