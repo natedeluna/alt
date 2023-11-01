@@ -220,3 +220,13 @@
     border-block-end: 3px solid #4545450e; */
     box-shadow: 0 1px 3px 0 rgba(60,64,67,0.3), 0 4px 8px 3px rgba(60,64,67,0.049);
 }
+
+.v12 {
+    box-shadow: calc(0.075 * -30px) calc(0.075 * -30px) calc(0.075 * 90px) calc(0.075 * 7px) rgb(255 220 185 / 65%), calc(0.075 * 40px) calc(0.075 * 40px) calc(0.075 * 90px) calc(0.075 * -30px) rgba(0, 0, 0, 0.15), inset calc(0.075 * -5px) calc(0.075 * -5px) calc(0.075 * 30px) rgba(0, 0, 0, 0.1), inset calc(0.075 * 20px) calc(0.075 * 20px) calc(0.075 * 10px) rgba(255, 223, 191, 0.2);         
+    border-radius: 10px;
+    background-color: #f2c293;
+    transition: all .1s ease ;
+}
+
+.v12:hover {
+}

@@ -17,6 +17,7 @@ export const Space = component$(() => {
         <div class = {[styles.space, styles.v9]}></div>
         <div class = {[styles.space, styles.v10]}></div>
         <div class = {[styles.space, styles.v11]}></div>
+        <div class = {[styles.space, styles.v12]}></div>
       </div>
     </div>
   </>
